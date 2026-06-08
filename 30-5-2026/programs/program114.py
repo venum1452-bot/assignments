@@ -1,0 +1,6 @@
+import math
+def cone_volume(height, radius):
+    if radius == 0:
+        return 0
+    volume = (1/3) * math.pi * (radius**2) * height
+    return round(volume, 2)
